@@ -1,0 +1,36 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+Icon?
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Office temp files
+~$*
+*.exd
+
+# Mac resource forks
+._*
+
+# Keep code as text. Ignore Excel binaries by default.
+*.xls
+*.xlsx
+*.xlsm
+*.xlsb
+*.xlt*
+*.xlam
+*.csv
+*.ods
+
+# Allow example workbooks to be tracked
+!examples/*.xlsm
+!examples/*.xlsb
+
+# Python or tooling caches (if you script exports)
+__pycache__/
+*.pyc
+venv/
